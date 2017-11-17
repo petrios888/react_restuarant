@@ -1,24 +1,18 @@
 import React, { Component} from 'react'
 
+export default function Header(){
 
-export default class Header extends Component {
-  constructor () {
-    super()
-    this.state = {
-      name: 'Cephas'
-    }
-  }
-  render () {
-    return (<header>
+  return (
+    <header>
     <div className='logo'> Logo </div>
     <nav>
-      <a href="#">Create ads </a>
-      <a href="#">About us </a>
-      <a href="#">Log in  </a>
+      <a href="#">Home </a>
+      <a href="#">Party Platters </a>
+      <a href="#">Locations  </a>
+      <a href="#">Rewards  </a>
+      <a href="#">Reservations  </a>
       <a href="#" className= "register-btn"> Register </a>
     </nav>
-
-
-    </header>)
-  }
+    </header>
+  )
 }

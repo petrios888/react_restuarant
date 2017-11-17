@@ -1,18 +1,22 @@
 import React, { Component} from 'react'
 import ReactDOM from 'react-dom'
 import Header from './Header.js'
+import Topimg from './Topimg.js'
 
 class Layout extends Component {
   constructor () {
     super()
     this.state = {
-      name: 'Joe'
+      name: 'Cephas'
     }
   }
   render () {
     return (
       <div>
-      <Header />
+      <Header  />
+      <section>
+      <Topimg />
+      </section>
       </div>
     )
   }
