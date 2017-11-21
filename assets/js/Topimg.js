@@ -2,7 +2,8 @@ import React, {Component} from 'react'
 
 export default function Topimg(){
   return (
-    <section className="Topimg">
+    <section id="Topimg">
+    <div className="container">
     <div className="title">
     <h5>
       Welcome
@@ -16,6 +17,7 @@ export default function Topimg(){
         <div className="hours">
           Opening Hours <strong> Mon- Fir</strong> 9am -9pm
         </div>
+    </div>
     </div>
     </div>
     </section>
