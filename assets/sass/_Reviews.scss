@@ -1,0 +1,44 @@
+#Reviews {
+  padding: 100px 0;
+  text-align: right;
+
+
+  .side-img{
+    position: relative;
+    height: 200px;
+    width: 100px;
+    text-align: left;
+
+
+
+  img{
+    position: absolute;
+    max-width: 400px;
+    height: 550px
+
+  
+  }
+  }
+
+  h4{
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+
+  .arrows {
+    .fa-arrow-left,
+    .fa-arrow-right {
+      font-size: 1.5rem;
+      padding: 20px 10px;
+      color: $paragraphColor;
+      cursor: pointer;
+    }
+
+    .fa-arrow-left.ready,
+    .fa-arrow-right.ready{
+      color: black;
+    }
+
+  }
+}

@@ -9,6 +9,64 @@ webpackJsonp([0],{
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports.default = ContactUs;
+
+var _react = __webpack_require__(1);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function ContactUs() {
+  return _react2.default.createElement(
+    "section",
+    { id: "ContactUs" },
+    _react2.default.createElement(
+      "div",
+      { className: "container" },
+      _react2.default.createElement(
+        "h5",
+        { className: "title" },
+        " Contact Us"
+      ),
+      _react2.default.createElement(
+        "h2",
+        null,
+        " Delicous falvor of Autunum"
+      ),
+      _react2.default.createElement(
+        "div",
+        { className: "box" },
+        _react2.default.createElement(
+          "div",
+          { className: "row" },
+          _react2.default.createElement(
+            "div",
+            { className: "col-md-6" },
+            "hey"
+          ),
+          _react2.default.createElement(
+            "div",
+            { className: "col-md-6" },
+            "hey"
+          )
+        )
+      )
+    )
+  );
+}
+
+/***/ }),
+
+/***/ 30:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
 exports.default = Header;
 
 var _react = __webpack_require__(1);
@@ -70,7 +128,7 @@ function Header() {
 
 /***/ }),
 
-/***/ 30:
+/***/ 31:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -143,7 +201,142 @@ function OurStory() {
 
 /***/ }),
 
-/***/ 31:
+/***/ 32:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = RandomQuote;
+
+var _react = __webpack_require__(1);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function RandomQuote() {
+  return _react2.default.createElement(
+    "section",
+    { id: "RandomQuote", style: {
+        backgroundImage: "linear-gradient(135deg,rgba(0,0,0,.2) 0,#000 100%),url('http://www.colonelsretreat.com/system/special_slider/cooking.png')"
+      } },
+    _react2.default.createElement(
+      "div",
+      { className: "container" },
+      _react2.default.createElement(
+        "h1",
+        null,
+        " \"Good Painting is Like Good Cookingl It can Be Tasted, Not Explained.\" "
+      ),
+      _react2.default.createElement(
+        "span",
+        { className: "author" },
+        " -Johnny- "
+      )
+    )
+  );
+}
+
+/***/ }),
+
+/***/ 33:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Reviews;
+
+var _react = __webpack_require__(1);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Reviews() {
+  var currentReview = function currentReview() {
+    return _react2.default.createElement(
+      "div",
+      null,
+      _react2.default.createElement(
+        "h5",
+        { className: "comp-title" },
+        " Reviews "
+      ),
+      _react2.default.createElement(
+        "h2",
+        null,
+        " The Food NetWork "
+      ),
+      _react2.default.createElement(
+        "p",
+        null,
+        " Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat "
+      ),
+      _react2.default.createElement(
+        "div",
+        { className: "author" },
+        " ",
+        _react2.default.createElement(
+          "strong",
+          null,
+          " GUy St.Louis"
+        ),
+        " - ",
+        _react2.default.createElement(
+          "em",
+          null,
+          " Best Chef in New England"
+        )
+      )
+    );
+  };
+  return _react2.default.createElement(
+    "section",
+    { id: "Reviews" },
+    _react2.default.createElement(
+      "div",
+      { className: "container" },
+      _react2.default.createElement(
+        "div",
+        { className: "row" },
+        _react2.default.createElement(
+          "div",
+          { className: "col-md-8" },
+          _react2.default.createElement(
+            "div",
+            { className: "side-img" },
+            _react2.default.createElement("img", {
+              src: "http://www.85cbakerycafe.com/wp-content/uploads/2016/03/chef-01.png"
+            })
+          )
+        ),
+        _react2.default.createElement(
+          "div",
+          { className: "col-md-4" },
+          currentReview(),
+          _react2.default.createElement(
+            "div",
+            { className: "arrows" },
+            _react2.default.createElement("i", { className: "fa fa-arrow-left", "aria-hidden": "true" }),
+            _react2.default.createElement("i", { className: "fa fa-arrow-right ready", "aria-hidden": "true" })
+          )
+        )
+      )
+    )
+  );
+}
+
+/***/ }),
+
+/***/ 34:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -273,7 +466,7 @@ function SpecialMenu() {
 
 /***/ }),
 
-/***/ 32:
+/***/ 35:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -342,7 +535,7 @@ function Topimg() {
 
 /***/ }),
 
-/***/ 34:
+/***/ 37:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -358,21 +551,33 @@ var _reactDom = __webpack_require__(7);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _Header = __webpack_require__(29);
+var _Header = __webpack_require__(30);
 
 var _Header2 = _interopRequireDefault(_Header);
 
-var _Topimg = __webpack_require__(32);
+var _Topimg = __webpack_require__(35);
 
 var _Topimg2 = _interopRequireDefault(_Topimg);
 
-var _OurStory = __webpack_require__(30);
+var _OurStory = __webpack_require__(31);
 
 var _OurStory2 = _interopRequireDefault(_OurStory);
 
-var _SpecialMenu = __webpack_require__(31);
+var _SpecialMenu = __webpack_require__(34);
 
 var _SpecialMenu2 = _interopRequireDefault(_SpecialMenu);
+
+var _RandomQuote = __webpack_require__(32);
+
+var _RandomQuote2 = _interopRequireDefault(_RandomQuote);
+
+var _Reviews = __webpack_require__(33);
+
+var _Reviews2 = _interopRequireDefault(_Reviews);
+
+var _ContactUs = __webpack_require__(29);
+
+var _ContactUs2 = _interopRequireDefault(_ContactUs);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -381,6 +586,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+//import ContactUs from './ContactUs.js'
+
 
 var Layout = function (_Component) {
   _inherits(Layout, _Component);
@@ -408,7 +616,10 @@ var Layout = function (_Component) {
           null,
           _react2.default.createElement(_Topimg2.default, null),
           _react2.default.createElement(_OurStory2.default, null),
-          _react2.default.createElement(_SpecialMenu2.default, null)
+          _react2.default.createElement(_SpecialMenu2.default, null),
+          _react2.default.createElement(_RandomQuote2.default, null),
+          _react2.default.createElement(_Reviews2.default, null),
+          _react2.default.createElement(_ContactUs2.default, null)
         )
       );
     }
@@ -423,4 +634,4 @@ _reactDom2.default.render(_react2.default.createElement(Layout, null), app);
 
 /***/ })
 
-},[34]);
+},[37]);
