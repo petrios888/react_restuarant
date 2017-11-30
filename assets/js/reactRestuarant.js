@@ -1,5 +1,6 @@
 import React, { Component} from 'react'
 import ReactDOM from 'react-dom'
+//import globalState from './state/globalState.js'
 import Header from './Header.js'
 import Topimg from './Topimg.js'
 import OurStory from './OurStory.js'
@@ -19,6 +20,7 @@ class Layout extends React.Component {
     this.state = {
       name: 'Cephas'
     }
+
   }
   render () {
     return (

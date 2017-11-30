@@ -162,7 +162,7 @@ function Footer() {
           _react2.default.createElement(
             "a",
             { href: "http://www.facebook.com", target: "new" },
-            _react2.default.createElement("i", { "class": "fa fa-facebook-square", "aria-hidden": "true" })
+            _react2.default.createElement("i", { className: "fa fa-facebook-square", "aria-hidden": "true" })
           )
         ),
         _react2.default.createElement(
@@ -171,7 +171,7 @@ function Footer() {
           _react2.default.createElement(
             "a",
             { href: "http://www.twitter.com", target: "new" },
-            _react2.default.createElement("i", { "class": "fa fa-twitter-square", "aria-hidden": "true" })
+            _react2.default.createElement("i", { className: "fa fa-twitter-square", "aria-hidden": "true" })
           )
         ),
         _react2.default.createElement(
@@ -180,7 +180,7 @@ function Footer() {
           _react2.default.createElement(
             "a",
             { href: "http://www.instagram.com", target: "new" },
-            _react2.default.createElement("i", { "class": "fa fa-instagram", "aria-hidden": "true" })
+            _react2.default.createElement("i", { className: "fa fa-instagram", "aria-hidden": "true" })
           )
         ),
         _react2.default.createElement(
@@ -189,7 +189,7 @@ function Footer() {
           _react2.default.createElement(
             "a",
             { href: "http://www.googleplus.com", target: "new" },
-            _react2.default.createElement("i", { "class": "fa fa-google-plus", "aria-hidden": "true" })
+            _react2.default.createElement("i", { className: "fa fa-google-plus", "aria-hidden": "true" })
           )
         )
       ),
@@ -362,7 +362,7 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactParallax = __webpack_require__(59);
+var _reactParallax = __webpack_require__(60);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -659,51 +659,62 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _globalState = __webpack_require__(39);
+
+var _globalState2 = _interopRequireDefault(_globalState);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function Topimg() {
+  var companyInfo = {
+    title: 'sousaku bistro japanese Topos & Bar',
+    phone: '888-888-8888',
+    location: 'Malden,MA'
+  };
+
+  console.log(companyInfo.title);
   return _react2.default.createElement(
-    "section",
-    { id: "Topimg" },
+    'section',
+    { id: 'Topimg' },
     _react2.default.createElement(
-      "div",
-      { className: "container" },
+      'div',
+      { className: 'container' },
       _react2.default.createElement(
-        "div",
-        { className: "title" },
+        'div',
+        { className: 'title' },
         _react2.default.createElement(
-          "h5",
+          'h5',
           null,
-          "Welcome"
+          companyInfo.title
         ),
         _react2.default.createElement(
-          "h1",
+          'h1',
           null,
-          "Prime Steak"
+          'Welcome'
         ),
         _react2.default.createElement(
-          "div",
-          { className: "contact-info" },
+          'div',
+          { className: 'contact-info' },
           _react2.default.createElement(
-            "div",
-            { className: "booking" },
-            "  Book Table Directly"
+            'div',
+            { className: 'booking' },
+            '  Book Table Directly'
           ),
           _react2.default.createElement(
-            "h2",
+            'h2',
             null,
-            "888-888-8888"
+            '888-888-8888'
           ),
           _react2.default.createElement(
-            "div",
-            { className: "hours" },
-            "Opening Hours ",
+            'div',
+            { className: 'hours' },
+            'Opening Hours ',
             _react2.default.createElement(
-              "strong",
+              'strong',
               null,
-              " Mon- Fir"
+              ' Mon- Fir'
             ),
-            " 9am -9pm"
+            ' 9am -9pm'
           )
         )
       )
@@ -768,6 +779,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+//import globalState from './state/globalState.js'
+
 
 //import ContactUs from './ContactUs.js'
 
@@ -783,6 +796,7 @@ var Layout = function (_React$Component) {
     _this.state = {
       name: 'Cephas'
     };
+
     return _this;
   }
 
@@ -814,6 +828,29 @@ var Layout = function (_React$Component) {
 var app = document.getElementById('app');
 
 _reactDom2.default.render(_react2.default.createElement(Layout, null), app);
+
+/***/ }),
+
+/***/ 39:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var companyInfo = {
+  title: 'sousaku bistro japanese Topos & Bar',
+  phone: '888-888-8888',
+  location: 'Malden,MA'
+
+};
+var globalState = exports.globalState = {
+  count: 0,
+  companyInfo: companyInfo
+};
 
 /***/ })
 
