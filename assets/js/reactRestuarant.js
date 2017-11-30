@@ -7,12 +7,13 @@ import SpecialMenu from './SpecialMenu.js'
 import RandomQuote from './RandomQuote.js'
 import Reviews from './Reviews.js'
 import ContactUs from './ContactUs.js'
+import Footer from './Footer.js'
 
 
 //import ContactUs from './ContactUs.js'
 
 
-class Layout extends Component {
+class Layout extends React.Component {
   constructor () {
     super()
     this.state = {
@@ -31,6 +32,7 @@ class Layout extends Component {
       <Reviews />
       <ContactUs />
       </section>
+      <Footer />
       </div>
     )
   }
@@ -38,4 +40,4 @@ class Layout extends Component {
 
 const app = document.getElementById('app')
 
-ReactDOM.render(<Layout />, app)
+ReactDOM.render(<Layout />,app)

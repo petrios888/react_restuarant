@@ -43,12 +43,59 @@ function ContactUs() {
           _react2.default.createElement(
             "div",
             { className: "col-md-6" },
-            "hey"
+            _react2.default.createElement(
+              "div",
+              { className: "title" },
+              "Malden, Massachusetts"
+            ),
+            _react2.default.createElement(
+              "h6",
+              { className: "Address" },
+              "166 Eastern Avenue ",
+              _react2.default.createElement("br", null),
+              "Malden, MA 02148 (781)321-8600"
+            ),
+            _react2.default.createElement(
+              "p",
+              null,
+              _react2.default.createElement(
+                "strong",
+                null,
+                "email"
+              ),
+              " ",
+              _react2.default.createElement(
+                "a",
+                { href: "contactus@sousakumalden.com" },
+                " contactus@sousakumalden.com"
+              )
+            )
           ),
           _react2.default.createElement(
             "div",
             { className: "col-md-6" },
-            "hey"
+            _react2.default.createElement(
+              "h6",
+              null,
+              "Phone:"
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "title" },
+              "(781)321-8600"
+            ),
+            _react2.default.createElement(
+              "h6",
+              null,
+              "Lunch Service:"
+            ),
+            _react2.default.createElement(
+              "p",
+              null,
+              "Friday,Saturday, and Sunday: ",
+              _react2.default.createElement("br", null),
+              "Bookings from 12pm -1:30 pm"
+            )
           )
         )
       )
@@ -59,6 +106,105 @@ function ContactUs() {
 /***/ }),
 
 /***/ 30:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Footer;
+
+var _react = __webpack_require__(1);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Footer() {
+  return _react2.default.createElement(
+    "footer",
+    null,
+    _react2.default.createElement(
+      "div",
+      { container: "container" },
+      _react2.default.createElement(
+        "nav",
+        { className: "menu" },
+        _react2.default.createElement(
+          "a",
+          { href: "#" },
+          "Our Story"
+        ),
+        _react2.default.createElement(
+          "a",
+          { href: "#" },
+          "Reviews"
+        ),
+        _react2.default.createElement(
+          "a",
+          { href: "#" },
+          "Special Menu"
+        ),
+        _react2.default.createElement(
+          "a",
+          { href: "#" },
+          "ContactUs"
+        )
+      ),
+      _react2.default.createElement(
+        "ul",
+        { className: "social-media" },
+        _react2.default.createElement(
+          "li",
+          null,
+          _react2.default.createElement(
+            "a",
+            { href: "http://www.facebook.com", target: "new" },
+            _react2.default.createElement("i", { "class": "fa fa-facebook-square", "aria-hidden": "true" })
+          )
+        ),
+        _react2.default.createElement(
+          "li",
+          null,
+          _react2.default.createElement(
+            "a",
+            { href: "http://www.twitter.com", target: "new" },
+            _react2.default.createElement("i", { "class": "fa fa-twitter-square", "aria-hidden": "true" })
+          )
+        ),
+        _react2.default.createElement(
+          "li",
+          null,
+          _react2.default.createElement(
+            "a",
+            { href: "http://www.instagram.com", target: "new" },
+            _react2.default.createElement("i", { "class": "fa fa-instagram", "aria-hidden": "true" })
+          )
+        ),
+        _react2.default.createElement(
+          "li",
+          null,
+          _react2.default.createElement(
+            "a",
+            { href: "http://www.googleplus.com", target: "new" },
+            _react2.default.createElement("i", { "class": "fa fa-google-plus", "aria-hidden": "true" })
+          )
+        )
+      ),
+      _react2.default.createElement(
+        "div",
+        { className: "copyright" },
+        "\xA9 Copyright 2018"
+      )
+    )
+  );
+}
+
+/***/ }),
+
+/***/ 31:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -128,7 +274,7 @@ function Header() {
 
 /***/ }),
 
-/***/ 31:
+/***/ 32:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -201,7 +347,7 @@ function OurStory() {
 
 /***/ }),
 
-/***/ 32:
+/***/ 33:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -216,26 +362,58 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _reactParallax = __webpack_require__(59);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+/*
+export default function RandomQuote(){
+  return (
+    <section id="RandomQuote" style={{
+        backgroundImage: "linear-gradient(135deg,rgba(0,0,0,.2) 0,#000 100%),url('http://www.colonelsretreat.com/system/special_slider/cooking.png')"
+    }}>
+    <div className="container">
+    <h1> "Good Painting is Like Good Cookingl It can Be Tasted, Not Explained." </h1>
+    <span className="author"> -Johnny- </span>
+    </div>
+    </section>
+  )
+}
+/*/
 function RandomQuote() {
   return _react2.default.createElement(
-    "section",
-    { id: "RandomQuote", style: {
-        backgroundImage: "linear-gradient(135deg,rgba(0,0,0,.2) 0,#000 100%),url('http://www.colonelsretreat.com/system/special_slider/cooking.png')"
-      } },
+    'section',
+    { id: 'RandomQuote' },
     _react2.default.createElement(
-      "div",
-      { className: "container" },
+      'div',
+      { className: 'container' },
       _react2.default.createElement(
-        "h1",
-        null,
-        " \"Good Painting is Like Good Cookingl It can Be Tasted, Not Explained.\" "
-      ),
-      _react2.default.createElement(
-        "span",
-        { className: "author" },
-        " -Johnny- "
+        _reactParallax.Parallax,
+        { strength: 800 },
+        _react2.default.createElement(
+          _reactParallax.Background,
+          null,
+          _react2.default.createElement('img', { src: 'http://www.colonelsretreat.com/system/special_slider/cooking.png' }),
+          _react2.default.createElement('div', { style: {
+
+              backgroundImage: 'url(' + "http://www.colonelsretreat.com/system/special_slider/cooking.png" + ')',
+
+              height: '400%',
+              width: '1000%',
+              position: 'absolute'
+
+            } })
+        ),
+        _react2.default.createElement(
+          'h1',
+          null,
+          ' "Good Painting is Like Good Cookingl It can Be Tasted, Not Explained." '
+        ),
+        _react2.default.createElement(
+          'span',
+          { className: 'author' },
+          ' -Johnny- '
+        )
       )
     )
   );
@@ -243,7 +421,7 @@ function RandomQuote() {
 
 /***/ }),
 
-/***/ 33:
+/***/ 34:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -278,7 +456,7 @@ function Reviews() {
       _react2.default.createElement(
         "p",
         null,
-        " Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat "
+        " Wan Chi \"Boky\" Chu is the creative and innovative Executive Chef at Sousaku Bistro in Malden, Massachusetts.  Since taking over as Executive Chef, he has made the menu his own by introducing a fresh, modern, contemporary, edgy new take on fusion cuisine. Boky Chu was born/raised in Taiwan and speaks both Mandarin and Japanese.  He always had an interest in food since he was a young child.  His culinary career began in 1999 when he was 16 years old. In Taiwan, after Boky Chu graduated from a cooking school in 1999, he first started his career at Furukawa Japanese Restaurant - a traditional Japanese style restaurant where he would later become a cooking chef.  In 2004, he took a cooking chef position at Wasabi Japanese Fusion Restaurant in Grand Formosa Regent Taipei - A Four Seasons Hotel in order to accumulate his knowledge and confidence in cooking.  In 2006, he seized the opportunity to work at Ebiten Japanese Cuisine as a Head Chef to manage and coordinate a team of excellent chefs.  This position led him to an opportunity to come over to the United States. Chef Boky Chu's passion for food grows every day and he love sharing that passion with others. "
       ),
       _react2.default.createElement(
         "div",
@@ -314,7 +492,7 @@ function Reviews() {
             "div",
             { className: "side-img" },
             _react2.default.createElement("img", {
-              src: "http://www.85cbakerycafe.com/wp-content/uploads/2016/03/chef-01.png"
+              src: "https://storage.googleapis.com/wzukusers/user-24011213/images/57f459ee1a4d8ZAwhM7t/IMG_1232.JPG"
             })
           )
         ),
@@ -336,7 +514,7 @@ function Reviews() {
 
 /***/ }),
 
-/***/ 34:
+/***/ 35:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -466,7 +644,7 @@ function SpecialMenu() {
 
 /***/ }),
 
-/***/ 35:
+/***/ 36:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -535,7 +713,7 @@ function Topimg() {
 
 /***/ }),
 
-/***/ 37:
+/***/ 38:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -547,37 +725,41 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(7);
+var _reactDom = __webpack_require__(5);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _Header = __webpack_require__(30);
+var _Header = __webpack_require__(31);
 
 var _Header2 = _interopRequireDefault(_Header);
 
-var _Topimg = __webpack_require__(35);
+var _Topimg = __webpack_require__(36);
 
 var _Topimg2 = _interopRequireDefault(_Topimg);
 
-var _OurStory = __webpack_require__(31);
+var _OurStory = __webpack_require__(32);
 
 var _OurStory2 = _interopRequireDefault(_OurStory);
 
-var _SpecialMenu = __webpack_require__(34);
+var _SpecialMenu = __webpack_require__(35);
 
 var _SpecialMenu2 = _interopRequireDefault(_SpecialMenu);
 
-var _RandomQuote = __webpack_require__(32);
+var _RandomQuote = __webpack_require__(33);
 
 var _RandomQuote2 = _interopRequireDefault(_RandomQuote);
 
-var _Reviews = __webpack_require__(33);
+var _Reviews = __webpack_require__(34);
 
 var _Reviews2 = _interopRequireDefault(_Reviews);
 
 var _ContactUs = __webpack_require__(29);
 
 var _ContactUs2 = _interopRequireDefault(_ContactUs);
+
+var _Footer = __webpack_require__(30);
+
+var _Footer2 = _interopRequireDefault(_Footer);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -590,8 +772,8 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 //import ContactUs from './ContactUs.js'
 
 
-var Layout = function (_Component) {
-  _inherits(Layout, _Component);
+var Layout = function (_React$Component) {
+  _inherits(Layout, _React$Component);
 
   function Layout() {
     _classCallCheck(this, Layout);
@@ -620,13 +802,14 @@ var Layout = function (_Component) {
           _react2.default.createElement(_RandomQuote2.default, null),
           _react2.default.createElement(_Reviews2.default, null),
           _react2.default.createElement(_ContactUs2.default, null)
-        )
+        ),
+        _react2.default.createElement(_Footer2.default, null)
       );
     }
   }]);
 
   return Layout;
-}(_react.Component);
+}(_react2.default.Component);
 
 var app = document.getElementById('app');
 
@@ -634,4 +817,4 @@ _reactDom2.default.render(_react2.default.createElement(Layout, null), app);
 
 /***/ })
 
-},[37]);
+},[38]);

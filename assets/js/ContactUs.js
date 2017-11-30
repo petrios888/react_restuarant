@@ -10,10 +10,34 @@ export default function ContactUs(){
       <div className="box">
       <div className="row">
       <div className="col-md-6">
-      hey
+      <div className="title">
+       Malden, Massachusetts
+      </div>
+      <h6 className="Address">
+      166 Eastern Avenue <br/>
+      Malden, MA 02148
+      (781)321-8600
+      </h6>
+      <p>
+      <strong>email</strong> <a href="contactus@sousakumalden.com"> contactus@sousakumalden.com</a>
+
+      </p>
+
       </div>
       <div className="col-md-6">
-      hey
+      <h6>
+      Phone:
+      </h6>
+      <div className="title">
+      (781)321-8600
+      </div>
+      <h6>
+        Lunch Service:
+      </h6>
+      <p>
+        Friday,Saturday, and Sunday: <br/>
+        Bookings from 12pm -1:30 pm
+      </p>
       </div>
 
       </div>

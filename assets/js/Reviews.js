@@ -6,13 +6,13 @@ export default function Reviews(){
       <div>
       <h5 className="comp-title"> Reviews </h5>
       <h2> The Food NetWork </h2>
-      <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa
-      quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
-      rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer
-      tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean
-      leo ligula, porttitor eu, consequat </p>
+      <p> Wan Chi "Boky" Chu is the creative and innovative Executive Chef at Sousaku Bistro in Malden, Massachusetts.  Since taking over as Executive Chef, he has made the menu his own by introducing a fresh, modern, contemporary, edgy new take on fusion cuisine.
+
+Boky Chu was born/raised in Taiwan and speaks both Mandarin and Japanese.  He always had an interest in food since he was a young child.  His culinary career began in 1999 when he was 16 years old.
+
+In Taiwan, after Boky Chu graduated from a cooking school in 1999, he first started his career at Furukawa Japanese Restaurant - a traditional Japanese style restaurant where he would later become a cooking chef.  In 2004, he took a cooking chef position at Wasabi Japanese Fusion Restaurant in Grand Formosa Regent Taipei - A Four Seasons Hotel in order to accumulate his knowledge and confidence in cooking.  In 2006, he seized the opportunity to work at Ebiten Japanese Cuisine as a Head Chef to manage and coordinate a team of excellent chefs.  This position led him to an opportunity to come over to the United States.
+
+Chef Boky Chu's passion for food grows every day and he love sharing that passion with others. </p>
 
       <div className="author"> <strong> GUy St.Louis</strong> - <em> Best Chef in New England</em></div>
       </div>
@@ -25,7 +25,7 @@ export default function Reviews(){
     <div className="col-md-8">
     <div className="side-img">
       <img
-      src ="http://www.85cbakerycafe.com/wp-content/uploads/2016/03/chef-01.png"
+      src ="https://storage.googleapis.com/wzukusers/user-24011213/images/57f459ee1a4d8ZAwhM7t/IMG_1232.JPG"
       />
     </div>
       </div>
